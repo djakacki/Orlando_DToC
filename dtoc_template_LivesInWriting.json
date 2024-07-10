@@ -2,7 +2,7 @@
     "inputs": [
         "https://raw.githubusercontent.com/djakacki/Orlando_DToC/main/Lives%20in%20Writing-2.xml"
     ],
-    "documents": "//div[@type='prose'or@type='subsection'or@type='notes'or@type='annotations'or@type='works']",
+    "documents": "//div[@type='prose'or @type='subsection'or @type='notes'or @type='annotations'or @type='works']",
     "ignoreNamespace": true,
     "documentTitle": "head",
     "documentAuthor": "",
