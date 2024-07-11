@@ -1,0 +1,33 @@
+{
+    "inputs": [
+        "https://raw.githubusercontent.com/SusanBrown/Orlando_DToC/main/Lives_in_Writing-3.xml"
+    ],
+    "documents": "//div[@type='prose'or@type='subsection'or@type='notes'or@type='annotations'or@type='works']",
+    "ignoreNamespace": true,
+    "documentTitle": "head",
+    "documentAuthor": "",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "editionTitle": "Chapter 7: Lives in Writing",
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//persName",
+                "label": "People"
+            },
+            {
+                "xpath": "//placeName",
+                "label": "Places"
+            },
+            {
+                "xpath": "//orgName",
+                "label": "Organizations"
+            },
+            {
+                "xpath": "//title",
+                "label": "Works"
+            }
+            ]
+            }
+}
