@@ -889,7 +889,7 @@ q:after {
 }
 ref {
     display : inline;
-   color : #000000; 
+    color : black; 
     background-color : inherit;
 }
 ref:before {
