@@ -1,0 +1,118 @@
+{
+    "inputs": [
+        "https://raw.githubusercontent.com/SusanBrown/Orlando_DToC/main/Lives_in_Writing-3.xml"
+    ],
+    "documents": "//div[@type='prose'or@type='subsection'or@type='notes'or@type='annotations'or@type='works']",
+    "ignoreNamespace": true,
+    "documentTitle": "head",
+    "documentAuthor": "",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "editionTitle": "Chapter 7: Lives in Writing",
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//ref[@target='#pattitudes']",
+                "label": "Attitudes"
+            },
+            {
+                "xpath": "//ref[@target='#genreissue']",
+                "label": "Genre issue"
+            },
+            {
+                "xpath": "//ref[@target='#tgenre_autobiography']",
+                "label": "Genre: Autobiography"
+            },
+            {
+                "xpath": "//ref[@target='#tgenre_biography']",
+                "label": "Genre: Biography"
+            },
+            {
+                "xpath": "//ref[@target='#tgenre_diary']",
+                "label": "Genre: Diary"
+            },
+            {
+                "xpath": "//ref[@target='#tgenre_essay']",
+                "label": "Genre: Essay"
+            },
+            {
+                "xpath": "//ref[@target='#tgenre_poetry']",
+                "label": "Genre: Fiction"
+            },
+            {
+                "xpath": "//ref[@target='#tgenre_introduction']",
+                "label": "Genre: Introduction"
+            },
+            {
+                "xpath": "//ref[@target='#tgenre_letter']",
+                "label": "Genre: Letter"
+            },
+            {
+                "xpath": "//ref[@target='#tgenre_lifeWriting']",
+                "label": "Genre: Life Writing"
+            },
+            {
+                "xpath": "//ref[@target='#tgenre_novel']",
+                "label": "Genre: Novel"
+            },
+            {
+                "xpath": "//ref[@target='#tgenre_periodical']",
+                "label": "Genre: Periodical"
+            },
+            {
+                "xpath": "//ref[@target='#tgenre_prefatorypiece']",
+                "label": "Genre: Prefatory Piece"
+            },
+            {
+                "xpath": "//ref[@target='#tgenre_sketch']",
+                "label": "Genre: Sketch"
+            },
+            {
+                "xpath": "//ref[@target='#tgenre_travelwriting']",
+                "label": "Genre: Travel Writing"
+            },
+            {
+                "xpath": "//ref[@target='#pmotives_ascribed']",
+                "label": "Motives for writing"
+            },
+            {
+                "xpath": "//orgName",
+                "label": "Organizations"
+            },
+            {
+                "xpath": "//persName",
+                "label": "People"
+            },
+            {
+                "xpath": "//placeName",
+                "label": "Places"
+            },
+            {
+                "xpath": "//ref[@target='#prelationswithpublisher']",
+                "label": "Relations with publisher"
+            },
+            {
+                "xpath": "//ref[@target='#rresponse']",
+                "label": "Responses"
+            },
+            {
+                "xpath": "//title",
+                "label": "Works"
+            }
+        ],
+        "toc": [
+            "aee3ecc763ead83e1a0965ffc74bb183378d3924dd548a2e1a1ebe59ca4b60a6",
+            "7647961a8a307da3ece114521f39f3942f0cd704ee747ea339bdeccbb61cbb5c",
+            "8161691a200facac94da9634c1707424c25ab3c9dacf4386f6a26682351c9731",
+            "94aef3633b53754f853ab9ef549b24cf9a958876e57600bb1e73df9fc3cd085b",
+            "847de9b981e02dc9f5eb86438cb4c8119f73a91bbd6708327b088df3525c8a34",
+            "fdd8b1b627636f7525572fbe8f4171888960bbc3d70b49c20e502dc12b0a8ca2",
+            "c24a97bbce2b8cdfb879279a8e4ccfe903e654e0a51f287b001c8deb06b8f4d0",
+            "711f73dbffc869088bc346d014628fa3f3cbd727c9998a78506f459f10bf9ef3",
+            "552cc2acab4de0f190ea57677e47935b9aaf3b387645c121d6a437ae2c830ae9",
+            "6fdfa490fcb9e64b974585ff2a65351aefcff46193d6fa2686cf044ab8972696",
+            "9076fbe49f0e15a7b88159f723f77ee1c05ca06e3c4a3434099c6a92f291fdd7"
+        ]
+    }
+}
