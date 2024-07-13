@@ -20,7 +20,7 @@
 
 TEI {
     margin : 10px 25px;
-    font-family : Georgia, serif;
+    font-family : Verdana, sans-serif;
     line-height : 1.5;
 }
 
@@ -1035,12 +1035,12 @@ taxonomy {
     display : block;
     margin-bottom : 0.5em;
 }
-term {
+/*term {
     font-family : sans-serif;
     color : blue;
     background-color : inherit;
     display : inline;
-}
+}*/
 textClass {
     display : block;
     margin-bottom : 0.5em;
