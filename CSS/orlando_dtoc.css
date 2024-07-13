@@ -832,7 +832,7 @@ pb:after {
 }*/
 /* changing entity color to black */
 div persName, div placeName, div orgName, div title {
-    color: #000; 
+    color: #000000;
 }
 principal {
     display : block;
