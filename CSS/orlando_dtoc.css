@@ -761,7 +761,8 @@ note[n]:before {
     content : attr(n) " ";
     vertical-align : super;
 }
-div note persName, div note orgName, div note title, div note placeName {
+/* removed blue color for people, organizations, places */
+div note title {
     color:#6DB0CC !important;
 }
 note[place = "left"] {
@@ -828,9 +829,10 @@ pb:after {
     margin-top : 1em;
     text-align : center;
 }*/
-div persName, div placeName, div orgName, div title {
+/* hiding blue for named entities */
+/*div persName, div placeName, div orgName, div title {
     color: #336699;
-}
+}*/
 principal {
     display : block;
     margin-bottom : 0.5em;
