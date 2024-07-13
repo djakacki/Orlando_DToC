@@ -446,6 +446,7 @@ group {
     display : block;
     margin-bottom : 1em;
 }
+/* increasing font-size from 18px to 30px */
 body > div > head {
     display : block;
     padding-top : 7px;
@@ -456,9 +457,10 @@ body > div > head {
     margin-top : 1em;
     font-size : 18px;
 }
-body > div[type="poem"] > head author {
+/* Hiding this because I don't know what it does */
+/*body > div[type="poem"] > head author {
     font-weight:normal;
-}
+}*/
 body > div > div > head {
     display : block;
     padding-top : 14px;
@@ -470,13 +472,14 @@ body > div > div > head {
     margin-bottom : 0.5em;
     margin-top : 11px;
 }
+/* Hid grey background color */
 body > div > div > div > head {
     display : block;
     padding-top : 14px;
     padding-bottom : 10px;
     padding-left : 10px;
     color : inherit;
-    background-color : #BBBBBB;
+/*    background-color : #BBBBBB;*/
     font-weight : bold;
     margin-bottom : 0.5em;
     margin-top : 1em;
@@ -727,8 +730,9 @@ note:before {
 note[type]:before {
     content : attr(type) ': ';
 }
+/* changing note style to inline from block */
 opener note {
-    display : block;
+    display : inline;
     color:#999;
 }
 /* opener note:before {
