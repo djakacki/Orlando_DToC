@@ -455,7 +455,7 @@ body > div > head {
     font-weight : bold;
     margin-bottom : 0.5em;
     margin-top : 1em;
-    font-size : 18px;
+    font-size : 30px;
 }
 /* Hiding this because I don't know what it does */
 /*body > div[type="poem"] > head author {
