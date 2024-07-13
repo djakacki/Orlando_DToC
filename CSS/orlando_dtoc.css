@@ -446,6 +446,7 @@ group {
     display : block;
     margin-bottom : 1em;
 }
+/* increasing font-size from 18px to 30px */
 body > div > head {
     display : block;
     padding-top : 7px;
@@ -454,11 +455,12 @@ body > div > head {
     font-weight : bold;
     margin-bottom : 0.5em;
     margin-top : 1em;
-    font-size : 18px;
+    font-size : 30px;
 }
-body > div[type="poem"] > head author {
+/* Hiding this because I don't know what it does */
+/*body > div[type="poem"] > head author {
     font-weight:normal;
-}
+}*/
 body > div > div > head {
     display : block;
     padding-top : 14px;
@@ -470,13 +472,14 @@ body > div > div > head {
     margin-bottom : 0.5em;
     margin-top : 11px;
 }
+/* Hid grey background color */
 body > div > div > div > head {
     display : block;
     padding-top : 14px;
     padding-bottom : 10px;
     padding-left : 10px;
     color : inherit;
-    background-color : #BBBBBB;
+/*    background-color : #BBBBBB;*/
     font-weight : bold;
     margin-bottom : 0.5em;
     margin-top : 1em;
@@ -521,6 +524,18 @@ body > div > div > div > head:before {
 */
     color : black;
     background-color : inherit;
+}
+/* testing un-nested head element */
+head {
+     display : block;
+    padding-top : 14px;
+    padding-bottom : 10px;
+    padding-left : 10px;
+    color : black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom : 0.5em;
+    margin-top : 1em;
 }
 hi {
     display : inline;
@@ -727,8 +742,9 @@ note:before {
 note[type]:before {
     content : attr(type) ': ';
 }
+/* changing note style to inline from block */
 opener note {
-    display : block;
+    display : inline;
     color:#999;
 }
 /* opener note:before {
@@ -745,9 +761,10 @@ note[n]:before {
     content : attr(n) " ";
     vertical-align : super;
 }
-div note persName, div note orgName, div note title, div note placeName {
+/* removed blue color for note entities */
+/*div note persName, div note orgName, div note title, div note placeName {
     color:#6DB0CC !important;
-}
+}*/
 note[place = "left"] {
     float : left;
 }
@@ -813,7 +830,8 @@ pb:after {
     text-align : center;
 }*/
 div persName, div placeName, div orgName, div title {
-    color: #336699;
+/*    color: #336699;*/
+    color: #000000  !important; 
 }
 principal {
     display : block;
