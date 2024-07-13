@@ -739,9 +739,10 @@ note:before {
     content:'note: ';
     font-variant:small-caps;
 }
-note[type]:before {
+/* Hiding note type */
+/*note[type]:before {
     content : attr(type) ': ';
-}
+}*/
 /* changing note style to inline from block */
 opener note {
     display : inline;
@@ -829,6 +830,7 @@ pb:after {
     margin-top : 1em;
     text-align : center;
 }*/
+/* Hiding entity style */
 div persName, div placeName, div orgName, div title {
 /*    color: #336699;*/
     color: #000000  !important; 
