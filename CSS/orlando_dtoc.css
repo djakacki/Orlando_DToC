@@ -525,6 +525,18 @@ body > div > div > div > head:before {
     color : black;
     background-color : inherit;
 }
+/* testing un-nested head element */
+head {
+     display : block;
+    padding-top : 14px;
+    padding-bottom : 10px;
+    padding-left : 10px;
+    color : black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom : 0.5em;
+    margin-top : 1em;
+}
 hi {
     display : inline;
     background-color : yellow;
